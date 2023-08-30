@@ -1,0 +1,126 @@
+*{margin: 0; padding: 0;}
+html{
+    background-color: #F3F5F7;
+}
+.nav-bar{
+    background-color: #574AE8;
+    width: 100%;
+    height: 250px;
+    position: fixed;
+    z-index: 1;
+}
+.name h1{
+    font-size: 24px;
+    background-color: #574AE8;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
+.name h1:hover{
+    color: #3d33ab;
+}
+
+.name{
+    background-color: #574AE8;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 885px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.input{
+    /* background-color: #574AE8; */
+    padding: 10px;
+    border-radius: 11px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 87px;
+    background-color: rgb(255, 255, 255,0.24);
+    width: 885px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input input{
+    width: 95%; 
+    height: 50px;
+    border: none;
+    background: none;
+    outline: none;
+    margin-left: 20px;
+    color: white;
+}
+.input input::placeholder{
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+}
+svg{
+    background: none;}
+
+    
+.texto1{
+    border-radius: 11px;
+    margin-bottom: 20px;
+    padding: 30px;
+    height: 100%;
+    position: relative;
+    width: 885px;
+    top: 300px;
+    left: 50%; 
+    transform: translate(-50%);
+    background-color: #FFFFFF;
+    
+}
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.texto1 h4{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    color: #717171;
+}
+.texto1 h1{
+    cursor: pointer;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 26px;
+    color: #1A202C;
+}
+.texto1 p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    color: #717171;
+}
+svg{
+    cursor: pointer;
+}
+svg:hover{
+    color: red;
+}
+.svgbi bi-search{background-color: #574AE8;}
+@media screen and (max-width: 900px) {
+    /* .menu { width:400px; } */
+    .input { 
+        
+        width: 383px; 
+    }
+    #code h1{
+        left: 20%;
+    }
+    .name{
+        width: 383px;
+    }
+    .texto1{
+        width: 383px;
+    }
+    }
+
+
+
