@@ -144,6 +144,7 @@ html{
     font-family: 'Merriweather', serif;
 }
 .rodape input{  
+    
     outline: none;
     border: 0;
     border-radius: 3px;
@@ -152,7 +153,6 @@ html{
 }
 
 .rodape input::placeholder{
-
     font-family: 'Lato', sans-serif;
 }
 .rodape button{
@@ -171,7 +171,30 @@ html{
 
 @media screen and (max-width: 900px){
     .texto h1{
+        
+        width: 300px;
+    }
+    .texto{
+        margin-left: 10px;
+        padding-left: 20px;
+    }
+    
+}
+@media screen and (max-width: 600px){
+    .texto h1{
+        
+        font-size: 15px;
+    }
+    .texto p{
+        font-size: 12px;
+    }
+    .texto button{
         width: 100px;
     }
-}
+    .nav-bar img{
+        margin-left: -10px;
+        position: relative;
+        width: 250px;
+    }
+} 
 
