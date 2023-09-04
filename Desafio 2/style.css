@@ -1,0 +1,142 @@
+*{margin: 0; padding: 0;}
+
+/* teste */
+html{
+    background-color: #EBE9EA;
+}
+.nav-1{
+    width: 100%;
+    height: 50px;
+    background-color: #00AEFF;
+}
+.nav-1 h3{
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+.txt-1 h1{
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 10px;
+}
+.nav-princ{
+    position: relative;
+    background: rgb(0 0 0 / 61%) url(img/wallpaper.jpeg);
+    width: 100%;
+    height: 394px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.nav-princ h1{
+    position: relative;
+    font-family: "Montserrat";
+    font-size: 41px;
+    left: 40px;
+    padding: 44px;
+    top: 72px;
+    width: 500px;
+    color: #F9F9F9;
+
+}
+.nav-princ p{
+    position: relative;
+    font-family: "Montserrat";
+    font-size: 19px;
+    padding: 44px;
+    left: 40px;
+    font-weight: 100;
+    top: 17px;
+    width: 498px;
+    color: #F9F9F9;
+}
+.txt-2{
+    margin-top: 24px;
+}
+.txt-2 h1{
+    font-weight: bold;
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 30px;
+}
+.txt-2 p{
+    margin-top: 36px;
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 16px;
+}
+.tenis img{
+    margin-left: 14px;
+    margin-top: 29px;
+    width: 350px;
+}
+.tenis{
+    margin: 14px;
+    display: inline-block;
+    width: 416px;
+    height: 283px;
+    background-color: #E0E0E0;
+}
+.corpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin-right: 20px;
+    /* margin-left: 60px; */
+    margin-top: 22px; 
+}
+.rodape{
+    margin-top: 200px;
+    width: 100%;
+    height: 50px;
+    background-color: #00AEFF;
+}
+.rodape h3{
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+.tenis img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+
+
+}
+ @media screen and (max-width: 900px) {
+    .nav-princ h1{
+        width: 77%;
+        left: 1px;
+        font-size: 30px;
+        padding: 30px;
+    }
+    .nav-princ p{
+        width: 77%;
+        padding: 30px;
+        left: 1px;
+        font-size: 15px;
+    }
+    .tenis{
+        width: 95%;
+
+    }
+    .tenis img{
+        width: 95%;
+    }
+ }
+ @media screen and (max-width: 600px) {
+    .nav-princ h1{
+        width: 84%;
+        left: 1px;
+    }
+    .nav-princ p{
+        left: 1px;
+        font-size: 15px;
+    }
+ }
+    
+    
