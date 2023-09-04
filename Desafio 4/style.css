@@ -10,28 +10,31 @@
     height: 100%;
 }
 .nav-img img{
-    margin-top: 25%;
+    
+    margin-top: 29%;
     margin-left: 25%;
     position: relative;
     height: 330px;
-    width: 330px;
+    width: 386px;
 }
 .login{
     position: relative;
     width: 50%;
     height: 100%;
     left: 50%;
+    display: flex;
+    justify-content: center;
 }
 .elementos{
     width: 330px;
     height: 100%;
-    gap: 17px;
+    gap: 20px;
     position: relative;
     display: flex;
     justify-content: center;
-    left: 25%;
-    top: 146px;
+    /* left: 25%; */
     flex-direction: column;
+    top: 209px;
 }
 .elementos h3{
     font-family: 'Merriweather', serif;
@@ -48,11 +51,23 @@
 }
 
 .elementos input{
+    padding: 3px;
+    padding-left: 20px;
     height: 30px;
     border-radius: 3px;
-    border-width: 1px;
+    border: 1px solid #E8E8E8;
     outline: none;
-    border-color: #E8E8E8;
+    
+}
+
+.elementos img{
+    right: 22px;
+    position: relative;
+    /* all: unset; */
+    cursor: pointer;
+    /* outline: revert; */
+    width: 21px;
+
 }
 .link{
     display:flex;
@@ -91,3 +106,54 @@
 #botao1:hover{
     background-color: #24e77e;
 }
+
+.button{
+    padding: 1px;
+    background-color: #1A202C;
+    border-radius: 11px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    /* top: 87px; */
+    width: 885px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+    height: 32px;
+    border-radius: 3px;
+    border: none;
+}
+.cadastro{
+    position: relative;
+    top: 7px;
+    gap: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    display: flex;
+    align-items: center;
+    margin-top: 135px;
+
+}
+.cadastro h3{
+    font-family: 'Lato', sans-serif;
+}
+.cadastro a{
+    font-family: 'Lato', sans-serif;
+}
+
+@media screen and (max-width: 900px) {
+    .nav-img{
+        display: none;
+    }  
+    .elementos{
+        width: 340px;
+        transform: translate(-50%);
+        left: 0%;
+        justify-content: center;
+    }
+}
+

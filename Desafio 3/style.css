@@ -6,18 +6,19 @@ html{
     background-color: #F9F9F9;
 }
 .nav-bar{
+    gap: 621px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
-    height: 288px;
+    height: 371px;
     background-color: #D7D4FF;
 }
 .nav-bar h1{
     font-weight: 500;
     margin-bottom: 9px;
     font-family: 'Merriweather', serif;
-    font-size: 23px;
+    font-size: 29px;
 }
 .nav-bar p{
     font-size: 15px;
@@ -29,7 +30,7 @@ html{
     margin-top: -46px;
     /* margin-left: 100px; */
     margin-right: 217px;
-    width: 281px;
+    width: 312px;
     height: 300px;
 }
 .texto button{
@@ -54,7 +55,7 @@ html{
 .cards{
     margin-bottom: 159px;
     margin-top: 87px;
-    gap: 125px;
+    gap: 316px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -67,8 +68,8 @@ html{
 -moz-box-shadow: 0px 0px 1em #666;
 }
 .cor{
-    height: 117px;
-    width: 244px;
+    height: 163px;
+    width: 253px;
 }
 #vermelho{
     background-color: #FF6363;
@@ -100,8 +101,8 @@ html{
     position: relative;
     align-items: center;
     background-color: #ffff;
-    height: 150px;
-    width: 244px;
+    height: 160px;
+    width: 253px;
     
 }
 .texto-card h1{
@@ -170,8 +171,23 @@ html{
 }
 
 @media screen and (max-width: 900px){
-    .texto h1{
-        width: 100px;
+    .nav-bar{
+        gap: 60px;
+        justify-content: center;
+    }
+    .nav-bar h1{
+        font-size: 15px;
+        
+    }
+    .nav-bar p{
+        width: 148px;
+        font-size: 12px;
+    }
+    .texto{
+        margin-left: 131px;
+    }
+    .nav-bar img{
+        width: 233px;
     }
 }
 

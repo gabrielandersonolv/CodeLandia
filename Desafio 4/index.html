@@ -13,6 +13,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -27,16 +28,27 @@
             <h3>Bem vindo de volta</h3>
             <h1>Faça login na sua conta</h1>
             <p>E-mail</p>
-            <input type="text">
+            <input id="input1" type="email" name="input1" placeholder="Email">
             <p>Senha</p>
-            <input type="text">
+            <input type="password" name="input2" id="input2" placeholder="Senha">
+
             <div class="link">
                 <input type="checkbox" name="" id="">
                 <p id="p" >Lembre de mim</p>
                 <a href="">Esqueceu sua senha?</a>
             </div>
-            <button id="botao1">Entrar</button>
-            <button id="botao2">Faça login com o google</button>
+
+            <button id="botao1" onclick=limparInputs()>Entrar</button>
+
+            <div class="button">
+
+                <img src="img/google-logo.png" alt="">
+                
+                <button id="botao2">Faça login com o google</button>
+            </div>
+            <div class="cadastro">
+            <h3>Não tem uma cadastro?</h3><a href="">Cadastre-se</a>
+            </div>
         </div>
     </div>
 </body>
