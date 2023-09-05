@@ -6,7 +6,7 @@ html{
     background-color: #F9F9F9;
 }
 .nav-bar{
-    gap: 621px;
+    gap: 482px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,6 +15,7 @@ html{
     background-color: #D7D4FF;
 }
 .nav-bar h1{
+    width: 207px;
     font-weight: 500;
     margin-bottom: 9px;
     font-family: 'Merriweather', serif;
@@ -55,7 +56,7 @@ html{
 .cards{
     margin-bottom: 159px;
     margin-top: 87px;
-    gap: 316px;
+    gap: 129px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -145,6 +146,7 @@ html{
     font-family: 'Merriweather', serif;
 }
 .rodape input{  
+    padding-left: 10px;
     outline: none;
     border: 0;
     border-radius: 3px;
@@ -159,7 +161,7 @@ html{
 .rodape button{
     font-family: 'Lato', sans-serif;
     background-color: #6C63FF;
-    width: 300px;
+    width: 312px;
     height: 50px;
     border: 0;
     border-radius: 3px;
