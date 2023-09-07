@@ -7,25 +7,32 @@ body{
     background: linear-gradient(90deg, rgba(75,108,89,1) 5%, rgba(57,95,88,1) 26%, rgba(45,86,87,1) 61%, rgba(26,72,85,1) 78%);
 }
 .nav-bar{
+    justify-content: center;
     width: 100%;
     height: 100px;
-    gap: 50%;
+    /* gap: 52px; */
     position: relative;
-    
-    justify-content: center;
+    /* justify-content: space-between; */
     display: flex;
-    text-align: center;
-    top: 41px;
+    /* justify-content: space-between; */
+    gap: 50%;
+    /* text-align: center; */
+    top: 0%;
 }
 
 #logo{
-    width: 177px;
+    position: relative;
+    top: 19%;
+    height: 74px;
+    width: 136px;
 }
 .nav-bar li {
     position: relative;
     top: 50%;
     transform: translate(-50%);
     list-style: none;
+    left: 72px;
+    flex-wrap: nowrap;
 }
 
 .nav-bar img:hover{
@@ -39,26 +46,28 @@ body{
     margin-left: 39px;
 }
 .textos{ 
-    margin-left: 14%;
+    bottom: 24px; 
+    justify-content: space-between;
+    margin-left: 11%;
     color: white;
-    margin-top: 150px;
+    margin-top: 5%;
     position: relative;
     display: flex;
-    flex-direction: column;
     gap: 27px;
-    justify-content: center;
+    flex-wrap: wrap;
+
 }
 .textos h3{
     /* color: white; */
-    font-weight: 600;
-    font-size: 27px;
+    line-height: 50px;
+    font-size: 20px;
     font-family: 'Lexend Deca', sans-serif;
     font-family: 'Poppins', sans-serif; 
 }
 .textos h1{
-    line-height: 85px;
-    font-size: 82px;
-    width: 480px;
+        line-height: 85px;
+    width: 100%;
+    font-size: 79px;
     /* color: white; */
     font-family: 'Lexend Deca', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -73,6 +82,7 @@ body{
     
 }
 .botao{
+    margin-top: 5%;
     gap: 75px;
     /* justify-content: center; */
     display: flex;
@@ -83,7 +93,7 @@ body{
     cursor: pointer;
     height: 50px;
     width: 225px;
-    background: transparent;
+    
     border: 4px solid #658e76;
     color: #100f0f;
     padding: 16px 40px;
@@ -95,8 +105,17 @@ body{
 /* .botao #btn1{
     background-color: #658E76 !important;
 } */
-.btn:hover{ 
-    background-color: black;
+#btn2{ 
+    background-color: transparent;
+}
+#btn2:hover{ 
+    background-color: #658e76;
+}
+#btn1{
+    background-color: #658e76;
+}
+#btn1:hover{
+    background-color: transparent;
 }
 .botao button p{
     margin-top: -9px;
@@ -107,15 +126,11 @@ body{
     transform: skew(25deg);
     font-weight: 300;
 }
-.img{
-    bottom: 472px;
-    position: relative;
-    margin-left: 52%;
-}
+
 .img img{
     
     cursor: pointer;
-    width: 613px;
+    width: 531px;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -135,20 +150,30 @@ body{
     50%  { transform: translate(0, 20px); }
     100%   { transform: translate(0, -0px); }   
 }
-@media screen and (max-width: 1000px){
-    #logo{width: 167px;
-        right: 5%;
+@media screen and (max-width: 900px){
+    #logo{width: 120px;
+        height: 80px;
     }
     .nav-bar{
-        margin-left: 9%;
+        width: 95%;
+        top: 0;
+        gap: 19%;
+        margin-left: 5%;
     }
     .nav-bar li a img{
         display: inline;
         width: 20px;
     }
     .nav-bar li{
+        top: 41%;
         display: flex;
         right: 30px;
+    }
+    .textos{
+        
+        margin-top: 5%;
+        gap: 0%;
+        flex-wrap: wrap-reverse;
     }
     /* .textos{
         margin-top: 50%;
@@ -156,21 +181,26 @@ body{
         margin-right: 50px;
     } */
     .textos h1{
-        line-height: 50px;
-        font-size: 52px;
+        line-height: 10px;
+        line-height: 60px;
+        font-size: 50px;
     }
     .textos h3{
-        font-size: 20px
+        font-size: 15px
     }
     .textos p{
-        width: 372px;
-        font-size: 15px;
+        width: 80%;
+        font-size: 10px;
     }
     .img img{
-        margin-right: 30px;
-        position: relative;
-        bottom: 205px;
-        width: 359px;
+        justify-content: center;
+        width: 280px;
+    }
+    #btn2{
+        display: none;
+    }
+    .botao button{
+        height: 10px;
     }
 }
 
