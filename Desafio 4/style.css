@@ -34,7 +34,7 @@
     justify-content: center;
     /* left: 25%; */
     flex-direction: column;
-    top: 209px;
+    margin-top: 22%;
 }
 .elementos h3{
     font-family: 'Merriweather', serif;
@@ -127,15 +127,14 @@
 }
 .cadastro{
     position: relative;
-    top: 7px;
     gap: 22px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 22px;
+    gap: 10px;
     display: flex;
     align-items: center;
-    margin-top: 135px;
+    margin-top: 0;
 
 }
 .cadastro h3{
