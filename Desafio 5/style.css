@@ -32,7 +32,7 @@ body{
     transform: translate(-50%);
     list-style: none;
     left: 72px;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
 }
 
 .nav-bar img:hover{
@@ -54,7 +54,7 @@ body{
     position: relative;
     display: flex;
     gap: 27px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
 }
 .textos h3{
@@ -150,9 +150,66 @@ body{
     50%  { transform: translate(0, 20px); }
     100%   { transform: translate(0, -0px); }   
 }
-@media screen and (max-width: 900px){
-    #logo{width: 120px;
-        height: 80px;
+@media screen and (max-width: 928px){
+    #logo{top: 8%;
+        width: 110px;
+        height: 58px;
+    }
+    .nav-bar{
+        width: 95%;
+        top: 0;
+        gap: 44%;
+        margin-left: 5%;
+    }
+    .nav-bar li a img{
+        display: inline;
+        width: 20px;
+    }
+    .nav-bar li{
+        top: 41%;
+        display: flex;
+        right: 30px;
+    }
+    .textos{
+        
+        margin-top: 12%;
+        gap: 5%;
+        flex-wrap: unset;
+    }
+    /* .textos{
+        margin-top: 50%;
+        right: 5%;
+        margin-right: 50px;
+    } */
+    .textos h1{
+        line-height: 10px;
+        line-height: 60px;
+        font-size: 55px;
+        width: 106%;
+        
+    }
+    .textos h3{
+        font-size: 15px
+    }
+    .textos p{
+        width: 80%;
+        font-size: 10px;
+    }
+    .img img{
+        justify-content: center;
+        width: 328px;
+    }
+    #btn2{
+        display: none;
+    }
+    .botao button{
+        height: 10px;
+    }
+}
+@media screen and (max-width: 650px){
+    #logo{top: 8%;
+        width: 110px;
+        height: 58px;
     }
     .nav-bar{
         width: 95%;
@@ -171,7 +228,7 @@ body{
     }
     .textos{
         
-        margin-top: 5%;
+        margin-top: 0%;
         gap: 0%;
         flex-wrap: wrap-reverse;
     }
@@ -181,20 +238,23 @@ body{
         margin-right: 50px;
     } */
     .textos h1{
-        line-height: 10px;
         line-height: 60px;
-        font-size: 50px;
+        font-size: 60px;
     }
     .textos h3{
-        font-size: 15px
+        font-size: 20px;
+        font-weight:600;
     }
     .textos p{
         width: 80%;
-        font-size: 10px;
+        font-size: 11px;
+    }
+    .img{
+        top: 2px;
     }
     .img img{
         justify-content: center;
-        width: 280px;
+        width: 317px;
     }
     #btn2{
         display: none;
