@@ -46,14 +46,14 @@ body{
     margin-left: 39px;
 }
 .textos{ 
-    bottom: 24px; 
-    justify-content: space-between;
+    top: 70px;
+    justify-content: center;
     margin-left: 11%;
     color: white;
     margin-top: 5%;
     position: relative;
     display: flex;
-    gap: 27px;
+    gap: 27%;
     /* flex-wrap: wrap; */
 
 }
@@ -65,15 +65,16 @@ body{
     font-family: 'Poppins', sans-serif; 
 }
 .textos h1{
-        line-height: 85px;
+        line-height: 92px;
     width: 100%;
-    font-size: 79px;
+    font-size: 87px;
     /* color: white; */
     font-family: 'Lexend Deca', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 .textos p{
     /* color: ; */
+    margin-top: 22px;
     font-weight: 300;
     width: 483px;
     font-size: 19px;
@@ -82,7 +83,7 @@ body{
     
 }
 .botao{
-    margin-top: 5%;
+    margin-top: 8%;
     gap: 75px;
     /* justify-content: center; */
     display: flex;
@@ -128,16 +129,18 @@ body{
 }
 
 .img img{
-    
+    right: 11px;
     cursor: pointer;
-    width: 531px;
+    width: 538px;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    margin-left: 30px;
+    /* margin-right: 22px; */
+    margin-left: 19px;
     margin-top: 5px;
-}
+    position: relative;
+    right: 88px;}
  
 
 
@@ -197,7 +200,7 @@ body{
     }
     .img img{
         justify-content: center;
-        width: 328px;
+        width: 389px;
     }
     #btn2{
         display: none;
@@ -228,7 +231,7 @@ body{
     }
     .textos{
         
-        margin-top: 0%;
+        margin-top: 4%;
         gap: 0%;
         flex-wrap: wrap-reverse;
     }
@@ -249,7 +252,7 @@ body{
         width: 80%;
         font-size: 11px;
     }
-    .img{
+    .img{margin-bottom: 10%;
         top: 2px;
     }
     .img img{
