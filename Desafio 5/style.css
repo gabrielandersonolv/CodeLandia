@@ -10,13 +10,9 @@ body{
     justify-content: center;
     width: 100%;
     height: 100px;
-    /* gap: 52px; */
     position: relative;
-    /* justify-content: space-between; */
     display: flex;
-    /* justify-content: space-between; */
     gap: 50%;
-    /* text-align: center; */
     top: 0%;
 }
 
@@ -46,14 +42,14 @@ body{
     margin-left: 39px;
 }
 .textos{ 
-    top: 70px;
-    justify-content: center;
+    bottom: 24px; 
+    justify-content: space-between;
     margin-left: 11%;
     color: white;
     margin-top: 5%;
     position: relative;
     display: flex;
-    gap: 27%;
+    gap: 27px;
     /* flex-wrap: wrap; */
 
 }
@@ -65,16 +61,15 @@ body{
     font-family: 'Poppins', sans-serif; 
 }
 .textos h1{
-        line-height: 92px;
+        line-height: 85px;
     width: 100%;
-    font-size: 87px;
+    font-size: 79px;
     /* color: white; */
     font-family: 'Lexend Deca', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 .textos p{
     /* color: ; */
-    margin-top: 22px;
     font-weight: 300;
     width: 483px;
     font-size: 19px;
@@ -83,7 +78,7 @@ body{
     
 }
 .botao{
-    margin-top: 8%;
+    margin-top: 5%;
     gap: 75px;
     /* justify-content: center; */
     display: flex;
@@ -129,18 +124,16 @@ body{
 }
 
 .img img{
-    right: 11px;
+    
     cursor: pointer;
-    width: 538px;
+    width: 531px;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    /* margin-right: 22px; */
-    margin-left: 19px;
+    margin-left: 30px;
     margin-top: 5px;
-    position: relative;
-    right: 88px;}
+}
  
 
 
@@ -200,7 +193,7 @@ body{
     }
     .img img{
         justify-content: center;
-        width: 389px;
+        width: 328px;
     }
     #btn2{
         display: none;
@@ -231,7 +224,7 @@ body{
     }
     .textos{
         
-        margin-top: 4%;
+        margin-top: 0%;
         gap: 0%;
         flex-wrap: wrap-reverse;
     }
@@ -241,6 +234,7 @@ body{
         margin-right: 50px;
     } */
     .textos h1{
+        width: 100%;
         line-height: 60px;
         font-size: 60px;
     }
@@ -252,7 +246,7 @@ body{
         width: 80%;
         font-size: 11px;
     }
-    .img{margin-bottom: 10%;
+    .img{
         top: 2px;
     }
     .img img{
